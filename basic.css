@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* font-family */
+.font-franklin {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.font-mulish{
+  font-family: 'Mulish', sans-serif;
+}
+
+/* background and text   color */
+.bg-transparent {
+  background-color: transparent;
+}
+.body-bg-color {
+  background-color: #151515;
+}
+.text-color {
+  color: #fefefe;
+}
+.img-color {
+  background-color: #242424;
+}
+.contact-bg-color {
+  background-color: #242424;
+}
+.contact-about-text-color {
+  color: #b1b1b1;
+}
+.contact-form-text-color {
+  color: #7b7b7b;
+}
+
+/* border   ::: start */
+.border-bottom {
+  border: 0;
+  border-bottom: 1.5px solid #7b7b7b;
+  padding-bottom: 20px;
+}
+.border-bottom-2 {
+  border: 0;
+  border-bottom: 2px solid #38dc67b0;
+}
+
+/* link   :::  start */
+.anchor {
+  text-decoration-line: none;
+  color: #fefefe;
+}
+.pending{
+  color: rgb(169, 151, 151);
+  cursor: not-allowed;
+}
+
+input:-internal-autofill-selected{
+  background-color: #151515;
+}
