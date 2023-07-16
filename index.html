@@ -1,297 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="basic.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/basic.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
     <title>Portfolio Uing HTML CSS JS only</title>
-</head>
+  </head>
 
-<body class="body-bg-color">
+  <body class="body-bg-color">
+    <div id="spinner">
+      <!-- Add your spinner markup here -->
+      <p>Loading...</p>
+    </div>
+    <section class="all-sections relactive container">
+      <section class="section header text-color border-bottom">
+        <h3>deepanshuheer</h3>
+        <div class="img img-color"></div>
+        <div class="about text-color">
+          <h2 class="font-franklin">
+            Nice to meet you! <br />
+            I'm <span class="border-bottom-2">Deepanshu Heer</span>
+          </h2>
+          <p>
+            I'm full-stack developer passionate about building accessible web
+            apps that users love.
+          </p>
 
-    <section class="sections container">
-        <section class="header text-color border-bottom">
-            <h3>deepanshuheer</h3>
-            <div class="img img-color">
-            </div>
-            <div class="about text-color">
-                <h2 class="font-franklin">Nice to meet you! <br> I'm <span class="border-bottom-2">Deepanshu Heer</span>
-                </h2>
-                <p>I'm full-stack developer passionate about building accessible web
-                    apps that users
-                    love.</p>
+          <button class="border-bottom-2 bg-transparent">
+            <a href="#contact" class="anchor">CONTACT ME</a>
+          </button>
+        </div>
+      </section>
 
-                <button class="border-bottom-2 bg-transparent"><a href="#contact" class="anchor">CONTACT
-                        ME</a>
-                </button>
-            </div>
-        </section>
+      <!-- skill section start -->
+      <section
+        class="section skills skill-container text-color border-bottom font-franklin">
+        <div class="skill">
+          <p class="tech">HTML</p>
+          <p class="small-text">2 Year Experiance</p>
+        </div>
+        <div class="skill">
+          <p class="tech">CSS & tailwindcss</p>
+          <p class="small-text">2 Year Experiance</p>
+        </div>
+        <div class="skill">
+          <p class="tech">JavaScript</p>
+          <p class="small-text">2 Year Experiance</p>
+        </div>
+        <div class="skill">
+          <p class="tech">REACT JS</p>
+          <p class="small-text">1 Year + 6 mon</p>
+        </div>
+        <div class="skill">
+          <p class="tech">NodeJS</p>
+          <p class="small-text">1 Year Experiance</p>
+        </div>
+        <div class="skill">
+          <p class="tech">EXPRESS</p>
+          <p class="small-text">1 Year Experiance</p>
+        </div>
+        <div class="skill hide"></div>
+        <div class="skill db">
+          <p class="tech">DB - mongodb</p>
+          <p class="small-text">1 Year Experiance</p>
+        </div>
+      </section>
+      <!-- skill section end -->
 
-        <!-- skill section start -->
-        <section class="skills text-color border-bottom font-franklin">
-            <div class="skill">
-                <p class="tech">HTML</p>
-                <p class="small-text">2 Year Experiance</p>
-            </div>
-            <div class="skill">
-                <p class="tech">CSS & tailwindcss</p>
-                <p class="small-text">2 Year Experiance</p>
-            </div>
-            <div class="skill">
-                <p class="tech">JavaScript</p>
-                <p class="small-text">2 Year Experiance</p>
-            </div>
-            <div class="skill">
-                <p class="tech">REACT JS</p>
-                <p class="small-text">1 Year + 6 mon</p>
-            </div>
-            <div class="skill">
-                <p class="tech">NodeJS</p>
-                <p class="small-text">1 Year Experiance</p>
-            </div>
-            <div class="skill">
-                <p class="tech">EXPRESS</p>
-                <p class="small-text">1 Year Experiance</p>
-            </div>
-            <div class="skill hide"></div>
-            <div class="skill db">
-                <p class="tech">DB - mongodb</p>
-                <p class="small-text">1 Year Experiance</p>
-            </div>
-        </section>
-        <!-- skill section end -->
-
-        <!-- project section start -->
-        <section class="project text-color">
-
-            <h2>Projects</h2>
-            <div class="card-container">
-                <div class="card">
-                    <div class="img">
-                        <img loading="lazy" src="./images/interactiveChatBox.png" alt="interface">
-                    </div>
-                    <p class="title font-mulish">Interactive chat box design</p>
-                    <ul class="build-in font-franklin">
-                        <li class="tect-use">HTML</li>
-                        <li class="tect-use">CSS</li>
-                    </ul>
-                    <button class="view-project border-bottom-2 bg-transparent">
-                        <a href="https://deep0133.github.io/Intractive-Chat-Box/" target="_blank" class="anchor">View
-                            Project
-                        </a>
-                    </button>
-                    <button class="view-code bg-transparent border-bottom-2 ">
-                        <a href="https://github.com/deep0133/Intractive-Chat-Box" target="_blank" class="anchor">View
-                            code
-                        </a>
-                    </button>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img loading="lazy" src="./images/window-111.png" alt="interface">
-                    </div>
-                    <p class="title font-mulish">Window home page Clone</p>
-                    <ul class="build-in font-franklin">
-                        <li class="tect-use">HTML</li>
-                        <li class="tect-use">tailwindcss</li>
-                    </ul>
-                    <button class="view-project border-bottom-2 bg-transparent">
-                        <a class="anchor pending">View
-                            Project
-                        </a>
-                    </button>
-                    <button class="view-code bg-transparent border-bottom-2 ">
-                        <a class="anchor pending">View
-                            code
-                        </a>
-                    </button>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img loading="lazy" src="./images/text-changer-111.png" alt="interface">
-                    </div>
-                    <p class="title font-mulish">Text changer</p>
-                    <ul class="build-in font-franklin">
-                        <li class="tect-use">Reactjs</li>
-                        <li class="tect-use">Bootstrap</li>
-                    </ul>
-                    <button class="view-project border-bottom-2 bg-transparent">
-                        <a href="https://deep0133.github.io/text-changer/" target="_blank" class="anchor">View
-                            Project
-                        </a>
-                    </button>
-                    <button class="view-code bg-transparent border-bottom-2 ">
-                        <a href="https://github.com/deep0133/text-changer" target="_blank" class="anchor">View
-                            code
-                        </a>
-                    </button>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img loading="lazy" src="./images/home-111.png" alt="interface">
-                    </div>
-                    <p class="title font-mulish">Techviral clone</p>
-                    <ul class="build-in font-franklin">
-                        <li class="tect-use">REActjs</li>
-                        <li class="tect-use">tailwindcss</li>
-                    </ul>
-                    <button class="view-project border-bottom-2 bg-transparent">
-                        <a href="http://techviral-clone.herokuapp.com" target="_blank" class="anchor">View
-                            Project
-                        </a>
-                    </button>
-                    <button class="view-code bg-transparent border-bottom-2 ">
-                        <a href="https://github.com/deep0133/techviral-clone" target="_blank" class="anchor">View
-                            code
-                        </a>
-                    </button>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img loading="lazy" src="./images/tic-tak-toe.png" alt="interface">
-                    </div>
-                    <p class="title font-mulish">TIC TAK TOE - GAME</p>
-                    <ul class="build-in font-franklin">
-                        <li class="tect-use">REActjs</li>
-                        <li class="tect-use">tailwindcss</li>
-                    </ul>
-                    <button class="view-project border-bottom-2 bg-transparent">
-                        <a href="https://deep0133.github.io/Tik-Tac-Toe" target="_blank" class="anchor">View
-                            Project
-                        </a>
-                    </button>
-                    <button class="view-code bg-transparent border-bottom-2 ">
-                        <a href="https://github.com/deep0133/Tik-Tac-Toe" target="_blank" class="anchor">View
-                            code
-                        </a>
-                    </button>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img loading="lazy"  src="./images/hostinger.png" alt="interface">
-                    </div>
-                    <p class="title font-mulish">hostinger home page redesign</p>
-                    <ul class="build-in font-franklin">
-                        <li class="tect-use">Reactjs</li>
-                        <li class="tect-use">tailwindcss</li>
-                    </ul>
-                    <button class="view-project border-bottom-2 bg-transparent">
-                        <a href="https://deep0133.github.io/hostingerRedesign/" target="_blank" class="anchor">View
-                            Project
-                        </a>
-                    </button>
-                    <button class="view-code bg-transparent border-bottom-2 ">
-                        <a href="https://github.com/deep0133/hostingerRedesign" target="_blank" class="anchor">View
-                            code
-                        </a>
-                    </button>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img loading="lazy" src="./images/ytdownloader.png" alt="interface">
-                    </div>
-                    <p class="title font-mulish">You tube video downloader</p>
-                    <ul class="build-in font-franklin">
-                        <li class="tect-use">REActjs</li>
-                        <li class="tect-use">NOdejs</li>
-                        <li class="tect-use">Express</li>
-                    </ul>
-                    <button class="view-project border-bottom-2 bg-transparent">
-                        <a href="https://deep0133.github.io/youtubeVideoDownloader/Client" target="_blank"
-                            class="anchor">View
-                            Project
-                        </a>
-                    </button>
-                    <button class="view-code bg-transparent border-bottom-2 ">
-                        <a href="https://github.com/deep0133/youtubeVideoDownloader/tree/main/Client" target="_blank"
-                            class="anchor">View
-                            code
-                        </a>
-                    </button>
-                </div>
-                <div class="card">
-                    <div class="img">
-                        <img loading="lazy" src="./images/flipkart.png" alt="interface">
-                    </div>
-                    <p class="title font-mulish">flipcart Clone</p>
-                    <ul class="build-in font-franklin">
-                        <li class="tect-use">Reactjs</li>
-                        <li class="tect-use">tailwindcss</li>
-                        <li class="tect-use">nodejs</li>
-                        <li class="tect-use">express</li>
-                        <li class="tect-use">mongodb</li>
-                    </ul>
-                    <button class="view-project border-bottom-2 bg-transparent">
-                        <a class="anchor pending">View
-                            Project
-                        </a>
-                    </button>
-                    <button class="view-code bg-transparent border-bottom-2 ">
-                        <a href="https://github.com/deep0133/Flipkart-clone/tree/main/flipkart-clone" target="_blank"
-                            class="anchor">View
-                            code
-                        </a>
-                    </button>
-                </div>
-
-            </div>
-        </section>
-        <!-- project section end -->
-
+      <!-- project section start -->
+      <section class="section project text-color">
+        <h2>Projects</h2>
+        <div class="card-container" id="card-container"></div>
+      </section>
+      <!-- project section end -->
     </section>
-
 
     <!-- contact section start -->
-
-    <section class="contact-section contact-bg-color text-color" style="margin-bottom:0;">
-        <div class="contact container border-bottom  ">
-            <div class="text">
-                <h2 class="contact-me">
-                    Contact
-                </h2>
-                <p class="about contact-about-text-color">
-                    I would love to hear about your project and
-                    how I could help. Please fill in the form, and
-                    I'll get back to you as soon as possible.
-                </p>
-            </div>
-            <form action="https://formsubmit.co/el/munese" method="POST">
-                <input class="border-bottom contact-form-text-color bg-transparent" type="text" name="name"
-                    placeholder="NAME" required>
-                <input class="border-bottom contact-form-text-color bg-transparent" type="email" name="email"
-                    placeholder="EMAIL" required>
-                <input class="border-bottom contact-form-text-color bg-transparent" type="hidden" name="subject"
-                    placeholder="Enter Heading" value="general" required>
-                <textarea class="border-bottom contact-form-text-color bg-transparent" name="message" cols="30" rows="5"
-                    placeholder="Messages" required></textarea>
-                <button type="submit" class="bg-transparent">send Message
-                </button>
-            </form>
+    <section
+      class="section contact-section contact-bg-color text-color"
+      style="margin-bottom: 0">
+      <div class="contact container border-bottom">
+        <div class="text">
+          <h2 class="contact-me">Contact</h2>
+          <p class="about contact-about-text-color">
+            I would love to hear about your project and how I could help. Please
+            fill in the form, and I'll get back to you as soon as possible.
+          </p>
         </div>
+        <form action="https://formsubmit.co/el/munese" method="POST">
+          <input
+            class="border-bottom contact-form-text-color bg-transparent"
+            type="text"
+            name="name"
+            placeholder="NAME"
+            required />
+          <input
+            class="border-bottom contact-form-text-color bg-transparent"
+            type="email"
+            name="email"
+            placeholder="EMAIL"
+            required />
+          <input
+            class="border-bottom contact-form-text-color bg-transparent"
+            type="hidden"
+            name="subject"
+            placeholder="Enter Heading"
+            value="general"
+            required />
+          <textarea
+            class="border-bottom contact-form-text-color bg-transparent"
+            name="message"
+            cols="30"
+            rows="5"
+            placeholder="Messages"
+            required></textarea>
+          <button type="submit" class="bg-transparent">send Message</button>
+        </form>
+      </div>
 
-        <div class="contact-link container" id="contact">
-            <h3 class="font-mulish">deepanshuheer</h3>
-            <div class="links">
-                <div class="link-1 github">
-                    <a href="https://github.com/deep0133" target="_blank">
-                        <img loading="lazy" src="icons/github.png"
-                            style="background-color: white; border-radius: 9999px; border: none; width: 30px;" alt="">
-                    </a>
-                </div>
-                <div class="link-2 linkedin pending">
-                    <img loading="lazy" src="icons/linkedin.png"
-                        style="background-color: white; border-radius: 9999px; border: none; width: 30px;" alt="">
-                </div>
-            </div>
+      <div class="contact-link container" id="contact">
+        <h3 class="font-mulish">deepanshuheer</h3>
+        <div class="links">
+          <div class="link-1 github">
+            <a href="https://github.com/deep0133" target="_blank">
+              <img
+                loading="lazy"
+                src="./assets/icons/github.png"
+                style="
+                  background-color: white;
+                  border-radius: 9999px;
+                  border: none;
+                  width: 30px;
+                "
+                alt="" />
+            </a>
+          </div>
+          <div class="link-2 linkedin pending">
+            <img
+              loading="lazy"
+              src="./assets/icons/linkedin.png"
+              style="
+                background-color: white;
+                border-radius: 9999px;
+                border: none;
+                width: 30px;
+              "
+              alt="" />
+          </div>
         </div>
+      </div>
     </section>
-
-
-
     <!-- contact section end -->
-</body>
 
+    <!-- JS Files  -->
+    <script src="assets/js/index.js"></script>
+    <script src="assets/data/projectData.js"></script>
+    <script src="assets/js/showProject.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var spinner = document.getElementById("spinner");
+        var body = document.body;
+
+        spinner.style.display = "none"; // Hide the spinner
+        body.style.opacity = 1; // Show the body
+      });
+    </script>
+  </body>
 </html>

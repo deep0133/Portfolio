@@ -1,43 +1,58 @@
+body {
+  min-width: 250px;
+  overflow: overflow;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
 .container {
   width: 100%;
   padding: 5px 20px;
   margin: auto;
 }
+
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 10px;
 }
+
 .header h3 {
   flex-grow: 1;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 100;
   font-size: 25px;
 }
+
 .header .img {
   margin: 15px 0 25px 0;
   min-width: 180px;
   height: 300px;
-  background-image: url("./images/profilePic.png");
+  background-image: url("../images/profilePic.png");
   background-size: cover;
   background-position: center;
 }
+
 .header .about {
   text-align: center;
 }
+
 .header .about h2 {
   font-size: 30px;
   font-weight: 400;
   margin: 15px 0;
 }
+
 .header .about p {
   font-size: 12px;
 }
+
 .header .about button {
   padding: 6px 0;
   margin: 20px auto 50px auto;
 }
+
 .header .about button a {
   font-size: 13px;
   font-weight: 500;
@@ -52,46 +67,56 @@
   padding: 50px 0 40px 0;
   line-height: 28px;
 }
+
 .skill .tech {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 22px;
 }
+
 .skills .hide {
   display: none;
 }
+
 /* skills section css end */
 
 /* project section css start */
 .project {
   padding: 40px 0 30px 0;
 }
+
 .project h2 {
   margin: 0px 0 20px 0;
 }
+
 .project .card-container {
   display: grid;
   gap: 15px;
   overflow: hidden;
 }
+
 .project .card {
   text-transform: uppercase;
 }
+
 .project .card .img {
   width: 100%;
   overflow: hidden;
 }
+
 .project .card .img img {
   width: 100%;
   border-radius: 3px;
   scale: 1;
   transition-duration: 0.4s;
 }
+
 .project .card .img img:hover {
   width: 100%;
   border-radius: 3px;
   scale: 1.3;
 }
+
 .project .card .title {
   margin-top: 10px;
   font-size: 20px;
@@ -99,27 +124,33 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 .project .card ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   margin: 8px 0 12px 0;
 }
+
 .project .card ul li {
   margin: 8px 15px 0 0px;
 }
+
 .project .card button {
   margin: 0px 15px 20px 0px;
   padding: 4px;
   padding-bottom: 6px;
   transition-duration: 0.4s;
 }
+
 .project .card button:hover {
   box-shadow: 3px 1px 5px #57d872e0;
 }
+
 .project .card button a {
   background-color: inherit;
 }
+
 /* project section css end */
 
 /* contact section css start */
@@ -128,25 +159,30 @@
   margin: auto;
   padding: 20px;
 }
+
 .contact-section .contact {
   display: flex;
   flex-direction: column;
 }
+
 .contact-section .contact .text {
   text-align: center;
   line-height: 22px;
   padding: 25px 0;
 }
+
 .contact-section .contact .text .contact-me {
   margin-top: 10px;
   font-weight: medium;
   font-size: 25px;
   padding: 10px 0;
 }
+
 .contact-section .contact form {
   display: flex;
   flex-direction: column;
 }
+
 input,
 textarea {
   background-color: transparent;
@@ -156,10 +192,12 @@ textarea {
   text-transform: uppercase;
   margin-top: 8px;
 }
+
 input:focus,
 textarea:focus {
   outline: none;
 }
+
 .contact-section .contact form button {
   border: none;
   margin: 30px auto;
@@ -176,18 +214,21 @@ textarea:focus {
   text-shadow: 2px 2px 2px rgb(179, 179, 72);
 
 }
+
 .contact-section .contact-link {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 10px;
 }
+
 .contact-section .contact-link .links {
   display: flex;
   text-align: center;
   gap: 10px;
   margin: 10px auto;
 }
+
 /* contact section css end */
 
 @media screen and (min-width: 540px) {
@@ -195,24 +236,29 @@ textarea:focus {
     width: 95%;
     padding: 0 20px;
   }
+
   .header h3 {
     text-align: start;
   }
+
   .header {
     flex-direction: row;
     align-items: start;
   }
+
   .header .img {
     margin: 0;
     min-width: 220px;
     height: 360px;
   }
+
   .header .about {
     text-align: start;
     position: absolute;
     top: 130px;
     max-width: 380px;
   }
+
   .header .about h2 {
     font-size: 40px;
     font-weight: 500;
@@ -223,10 +269,12 @@ textarea:focus {
     text-align: start;
     grid-template-columns: repeat(2, 1fr);
   }
+
   .skills .db {
     grid-column: span 2 / span 2;
     text-align: center;
   }
+
   /* skills section css end */
 
   /* project css  :: start */
@@ -234,29 +282,35 @@ textarea:focus {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
+
   .project .card-container .card {
     display: block;
   }
+
   /* project css  :: end */
 
   /* contact css  :: start */
   .contact-section .contact {
     flex-direction: column;
   }
+
   .contact-section .contact-link {
     flex-direction: row;
     align-items: center;
     padding: 0;
   }
+
   .contact-section .contact-link h3 {
     flex-basis: 50%;
     text-align: start;
   }
+
   .contact-section .contact-link .links {
     margin: 0;
     flex-basis: 50%;
     justify-content: end;
   }
+
   /* contact css  :: end */
 }
 
@@ -269,9 +323,11 @@ textarea:focus {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
   .skills .hide {
     display: block;
   }
+
   .skills .db {
     grid-column: span 2 / span 6;
     text-align: start;
@@ -280,10 +336,12 @@ textarea:focus {
   .contact-section {
     width: 100%;
   }
+
   .contact-section .contact {
     flex-direction: row;
     flex-basis: auto;
   }
+
   .contact-section .contact .text {
     text-align: start;
     flex-basis: 50%;
@@ -294,6 +352,7 @@ textarea:focus {
   .contact-section .contact .text .about {
     width: 70%;
   }
+
   .contact-section .contact form {
     flex-basis: 50%;
     padding: 10px 30px 10px 30px;
